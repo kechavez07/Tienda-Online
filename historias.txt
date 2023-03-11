@@ -1,0 +1,30 @@
+Historia de usuario 1:
+
+Título: Como usuario, quiero poder navegar la página web de forma sencilla para encontrar el 
+producto que deseo.
+
+Descripción: El usuario deberá poder encontrar los productos de forma sencilla y rápida, 
+sin necesidad de complicarse con la navegación de la página web. 
+
+Los productos deberán estar clasificados de forma clara y sencilla para que el usuario pueda 
+encontrarlos con la mayor facilidad posible.
+
+Criterios de aceptación:
+• Los productos deberán estar organizados de forma clara y sencilla para una mejor navegación.
+• La página deberá contar con un buscador para facilitar la búsqueda de productos.
+• Los productos deberán tener descripciones claras y detalladas para que el usuario pueda 
+    obtener información relevante.
+
+-----------------------------------------------------------------------------------------------------
+Historia de usuario 2:
+
+Título: Como usuario, quiero poder registrarme para realizar compras en la tienda virtual.
+
+Descripción: El usuario deberá poder realizar el proceso de registro de forma sencilla, rápida y segura. 
+El registro deberá ser necesario para realizar compras en la tienda virtual y deberá contar con campos 
+obligatorios para garantizar la seguridad de los datos del usuario.
+
+Criterios de aceptación:
+• El usuario deberá tener la opción de registrarse con su cuenta de redes sociales.
+• La página deberá contar con una política de privacidad para el tratamiento de los datos personales.
+• El proceso de registro deberá ser sencillo y rápido para el usuario.

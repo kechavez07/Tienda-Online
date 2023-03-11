@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro-styles.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  </head>
+    <title>Registro</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Mi tienda Online </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="tex" placeholder="Search a product...">
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"
+            >Inicio<span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Tienda Online</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registro.html">Registro</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+    <!-- /Navbar -->
+      </ul>
+    </div>
+  </nav>
+<!-- Formulario -->
+<h1>Registro de Usuario</h1>
+<form action="registro" method="post">
+    <input type="text" name="Nombre" placeholder="Nombre" required>
+    <input type="text" name="Apellido" placeholder="Apellido" required>
+    <input type="text" name="Usuario" placeholder="Usuario" required>
+    <input type="text" name="Correo" placeholder="Correo" required>
+    <input type="text" name="Contraseña" placeholder="Contraseña" required>
+    <input type="text" name="confirmarContraseña" placeholder="confirmarContraseña" required>
+
+    <input type="checkbox" name="aceptarTerminos" required> Acepto los Términos y Condiciones
+
+    <button type="submit">Registrarse</button>
+    <p>O registrase con redes sociales:</p>
+    <fieldset>
+      <a href="#" class="social-login-btn"><img src="media/icons/facebook.png" alt="Facebook"></a>
+      <a href="#" class="social-login-btn"><img src="media/icons/twitter.png" alt="Twitter"></a>
+      <a href="#" class="social-login-btn"><img src="media/icons/google.png" alt="Google"></a>
+    </fieldset>
+  </form>
+<p>¿Ya tienes una cuenta? <a href="login">Inicia Sesión aquí</a>.</p>
+<p><a href="privacidad">Política de privacidad</a>
+</p>
+<!-- /Formulario -->
+
+
+    <script>src="script.js"</script>
+    <!-- Scripts necesarios para el funcionamiento de Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery-all.min.js"></script>
+</body>
+</html>
